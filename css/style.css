@@ -324,11 +324,14 @@ Intro
 
 #intro img[src="img/bgslides/ye.png"]  {
 	height:100%;
-	width:72vw;
-	height 100vh;
-	max-width: 100%;
+	width:90vw;
+	width:90%;
+	height 90vw;
+	max-width: 90%;
 	top: -50px
 	position: relative;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .intro-text {
