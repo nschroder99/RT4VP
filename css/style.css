@@ -9,7 +9,7 @@
 Imports
 ================================= */
 @import url('font-awesome.min.css');
-@import url('simpletextrotator.css');
+/* @import url('simpletextrotator.css'); */
 @import url('overwrite.css');
 @import url('animate.css');
 
@@ -254,8 +254,8 @@ Home sections
 	height: 1px;
 	width: 80px;
 	background: #333;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -311,9 +311,10 @@ Intro
 #intro {
 	position: relative;
 	margin: 0 auto;
+	top: -50px;
 	width: 100vw;
 /* 	overflow-x: hidden; */
-	height:auto;
+	height:95vh;
 /* 	max-height: 743px; */
 	z-index:2;
 /* 	resize: both; */
@@ -326,6 +327,8 @@ Intro
 	width:72vw;
 	height 100vh;
 	max-width: 100%;
+	top: -50px
+	position: relative;
 }
 
 .intro-text {
@@ -354,7 +357,7 @@ Intro
 }
 
 .line-spacer {
-	width: 20%;
+	width: 10%;
 	margin:0 auto;
 	margin-top: 20px;
 	margin-bottom: 25px;
@@ -836,5 +839,5 @@ more media queries
 
 	header h1{
 		font-size: 70px;
-	} 
+	}
 }
