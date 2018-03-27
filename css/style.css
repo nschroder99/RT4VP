@@ -312,9 +312,9 @@ Intro
 	position: relative;
 	margin: 0 auto;
 	top: -50px;
-	width: 100vw;
+	width: auto;
 /* 	overflow-x: hidden; */
-	height:95vh;
+	height:auto;
 /* 	max-height: 743px; */
 	z-index:2;
 /* 	resize: both; */
