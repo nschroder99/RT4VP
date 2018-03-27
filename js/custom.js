@@ -63,7 +63,7 @@
       // else:
 
       images: [
-        "img/bgslides/1.png"
+        "img/bgslides/ye.png"
       ],
 
       onStart: function() {},

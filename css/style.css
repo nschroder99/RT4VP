@@ -60,7 +60,7 @@ h7 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
-	font-style: italic;
+	font-weight: 600;
 }
 h8 {
 	font-size: 32px;
@@ -87,6 +87,11 @@ signOff{
 
 .lead{
 	font-weight: 400;
+}
+
+img{
+    width: 250px;
+    height: 250px;
 }
 
 button {
@@ -205,7 +210,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #3A3A3A;
+	color: #43ba43;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -221,6 +226,7 @@ nav.navbar.fixed-to-top{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2em;
+	font-size: 1.75vw;
 }
 
 /* ================================
@@ -229,7 +235,7 @@ Home sections
 
 .home-section {
 	width: 100%;
-	padding: 150px 0px 150px 0px;
+	padding: 75px 0px 75px 0px;
 }
 
 /* --- heading --- */
@@ -305,12 +311,21 @@ Intro
 #intro {
 	position: relative;
 	margin: 0 auto;
-	width: 100%;
-	overflow-x: hidden;
-	height:100vh;
+	width: 100vw;
+/* 	overflow-x: hidden; */
+	height:auto;
+/* 	max-height: 743px; */
 	z-index:2;
-	background-size:cover;
+/* 	resize: both; */
+	
 
+}
+
+#intro img[src="img/bgslides/ye.png"]  {
+	height:100%;
+	width:72vw;
+	height 100vh;
+	max-width: 100%;
 }
 
 .intro-text {
